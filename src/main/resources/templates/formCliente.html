@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="/css/styles.css"></link>
+
+</head>
+<body>
+	<header>
+		<h1>Unju 2024</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="https://www.fi.unju.edu.ar">Fi Unju</a></li>
+			<li><a href="#algun-link">sobre todo</a></li>
+			<li><a href=#otro-link>info</a></li>
+		</ul>
+	</nav>
+	<header>
+
+		<main class="p">
+			<hr>
+			<h1>Formulario de Datos</h1>
+
+			<form>
+				<table>
+					<tr>
+						<td><label for="dni">Ingrese Dni: </label></td>
+						<td><input id="dni" type="number" required
+							placeholder="Ingrese DNI"></input><br></td>
+					</tr>
+					<tr>
+						<td><label for="nombres">Nombre: </label></td>
+						<td><input id="nombres" type="text" required
+							placeholder="Ingrese nombres"></input><br></td>
+					</tr>
+					<tr>
+						<td><label for="apellido">Apellido:</label></td>
+						<td><input id="apellido" type="text" required
+							placeholder="Ingrese Apellido"></input><br></td>
+					</tr>
+					<tr>
+						<td><label for="fecha naciemnto">FEcha de Nacimiento:</label></td>
+						<td><input id="fechaNacimiento" type="date" required
+							placeholder="Ingrese fecha naceimtno"></input><br></td>
+					</tr>
+					<tr>
+						<td><label for="genero">Genero:</label>
+						
+						<label for="generoM">Masculino:</label>
+						<input id="generoM" type="radio" value="Masculino"
+							name="genero"></input>
+						<label for="generoF">Femenino:</label>
+						<input id="generoF" type="radio" value="Femenino"
+							name="genero"></input></td>
+						<td><label for="generoX">X:</label>
+						<input id="generoX" type="radio" value="X" name="genero"></input><br></td>
+					</tr>
+				</table>
+
+				<label for="correoElectronico">Correo Electronico:</label> <input
+					id="correoElectronico" type="email" name="correoElectronico"
+					placeholder="email"></input><br> <label for="domicilio">Domicilio:</label>
+				<input id="domicilio" type="text" value="Domicilio"
+					name="domcicilio"></input><br> <label for="provincia">Provincia:</label>
+
+				<select id="provincia" name="Provincia">
+					<option value="Jujuy">jujuy</option>
+					<option value="salta"></option>
+
+				</select><br> <label for="celular">Telefono celu:</label> <input
+					id="celular" type="number" name="celular"></input><br> <label>categoria
+					de interes:</label>
+				<div>
+					<label for="intereses">futbol</label> <input id="intereses"
+						type="checkbox" name="intereses"></input><br>
+
+				</div>
+				<br> <label for="sugerencia"> Sugerencias:</label>
+				<textarea id="sugerencia" name="sugerencia" rows="8" cols="40"></textarea>
+				<br> <label for="password">Password:</label> <input
+					id="password" type="password" required="ingrese contraseña"
+					name="password" maxlength="8"></input><br> <label
+					for="passwordbis">ingresar nuevamente pass</label> <input
+					id="passwordbis" type="password" required="ingrese de nuevo pass"
+					name="password"></input><br> <label for="tyc">terminos
+					y condiciones</label> <input id="tyc" type="checkbox" name="Infrel"></input><br>
+				<input type="submit" value=Guardar> <input type="button"
+					value=Cancelar>
+
+			</form>
+			<hr>
+		</main>
+	</header>
+	<footer>
+		Pie de Pagina
+		<nav>
+			<ul>
+				<li><a href="/index">inicio</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
