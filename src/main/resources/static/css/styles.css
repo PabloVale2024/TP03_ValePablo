@@ -15,7 +15,7 @@ footer{
 .recursos{
 	flex: 1;
 	padding:10px;
-	background: green;
+	background: rgb(213, 237, 255);
 }
 .container{
 	display: flex;
@@ -23,13 +23,12 @@ footer{
 	width: 100%;
 }
 .p {
-	
-    font-family: Helvetica;
-    font-size: 20px;
+	font-family: Helvetica;
+    font-size: 14px;
     font-weight: bold;
     font-style: italic;
     color: #0838c7;
-    background-color: #6ceb6c;
+    background-color: #ccffcc;
     border-style: solid;
     border-color: #f50c0c;
     border-width: 2px;
@@ -37,3 +36,10 @@ footer{
     padding: 20px;
     border-radius: 14px;
 }
+.texto-degradado { 
+	background: -webkit-linear-gradient( #4E2390, #DBC9F0);
+	 -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent; 
+	  font-size: 30px; 
+	  font-weight: bold; 
+	  border: "1"}

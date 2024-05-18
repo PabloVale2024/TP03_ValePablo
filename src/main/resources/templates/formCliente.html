@@ -7,9 +7,11 @@
 
 </head>
 <body>
-	<header>
+	<header class="texto-degradado">
 		<h1>Unju 2024</h1>
+		
 	</header>
+	<progress></progress>
 	<nav>
 		<ul>
 			<li><a href="https://www.fi.unju.edu.ar">Fi Unju</a></li>
@@ -24,7 +26,7 @@
 			<h1>Formulario de Datos</h1>
 
 			<form>
-				<table>
+				<table border="0">
 					<tr>
 						<td><label for="dni">Ingrese Dni: </label></td>
 						<td><input id="dni" type="number" required
@@ -82,9 +84,7 @@
 						<td><label for="intereses">futbol</label> <input id="intereses"
 								type="checkbox" name="intereses"></input></td>
 						</tr>
-						<tr>
-						<td><label for="sugerencia"> Sugerencias:</label></td>
-						</tr>
+						
 						<tr>
 						<td><label for="password">Password:</label></td>
 						<td><input id="password" type="password" required="ingrese contraseña"
@@ -95,17 +95,28 @@
 						<td><input id="password" type="password" required="ingrese contraseña"
 							name="password" maxlength="8"></input></td>
 						</tr>
-						<label for="passwordbis">ingresar nuevamente pass</label>
-						<input id="passwordbis" type="password"
-							required="ingrese de nuevo pass" name="password"></input>
-						<br>
-						<label for="tyc">terminos y condiciones</label>
-						<input id="tyc" type="checkbox" name="Infrel"></input>
-						<br>
-						<input type="submit" value=Guardar>
-						<input type="button" value=Cancelar>
+						<tr>
+						<td><label for="passwordbis">ingresar nuevamente pass</label></td>
+						<td><input id="passwordbis" type="password"
+							required="ingrese de nuevo pass" name="password"></input></td>
+						</tr>
+						<tr>
+						<td><label for="tyc">terminos y condiciones</label></td>
+						<td><input id="tyc" type="checkbox" name="Infrel"></input></td>
+						</tr>
+						<tr>
+						<td><input type="submit" value=Guardar></td>
+						<td><input type="button" value=Cancelar></td>
+						</tr>
 				</table>
+				<table>
+				<tr>
+						<td><label for="sugerencia"> Sugerencias:</label></td>
+					</tr>	
+				</table>	
 				<textarea id="sugerencia" name="sugerencia" rows="8" cols="40"></textarea>
+				
+				
 			</form>
 			<hr>
 		</main>
