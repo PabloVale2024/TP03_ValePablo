@@ -46,49 +46,66 @@
 							placeholder="Ingrese fecha naceimtno"></input><br></td>
 					</tr>
 					<tr>
-						<td><label for="genero">Genero:</label>
-						
-						<label for="generoM">Masculino:</label>
-						<input id="generoM" type="radio" value="Masculino"
-							name="genero"></input>
-						<label for="generoF">Femenino:</label>
-						<input id="generoF" type="radio" value="Femenino"
-							name="genero"></input></td>
-						<td><label for="generoX">X:</label>
-						<input id="generoX" type="radio" value="X" name="genero"></input><br></td>
+						<td><label for="genero">Genero:</label></td>
+
+						<td><label for="generoM">Masculino:</label> <input
+							id="generoM" type="radio" value="Masculino" name="genero"></input>
+							<label for="generoF">Femenino:</label> <input id="generoF"
+							type="radio" value="Femenino" name="genero"></input></td>
+						<td><label for="generoX">X:</label> <input id="generoX"
+							type="radio" value="X" name="genero"></input><br></td>
 					</tr>
+					<tr>
+						<td><label for="correoElectronico">Correo
+								Electronico:</label></td>
+						<td><input id="correoElectronico" type="email"
+							name="correoElectronico" placeholder="email"></input><br></td>
+					</tr>
+					<tr>
+						<td><label for="domicilio">Domicilio:</label></td>
+						<td><input id="domicilio" type="text" placeholder="Domicilio"
+							name="domcicilio"></input></td>
+					</tr>
+					<tr>
+						<td><label for="provincia">Provincia:</label></td>
+
+						<td><select id="provincia" name="Provincia">
+								<option value="Jujuy">jujuy</option>
+								<option value="salta">Salta</option>
+
+						</select></td>
+						<tr>
+						<td><label for="celular">Telefono celu:</label></td>
+						<td><input id="celular" type="number" name="celular"></input></td></tr>
+						<tr>
+						<td><label>categoria de interes:</label></td>
+						<td><label for="intereses">futbol</label> <input id="intereses"
+								type="checkbox" name="intereses"></input></td>
+						</tr>
+						<tr>
+						<td><label for="sugerencia"> Sugerencias:</label></td>
+						</tr>
+						<tr>
+						<td><label for="password">Password:</label></td>
+						<td><input id="password" type="password" required="ingrese contraseña"
+							name="password" maxlength="8"></input></td>
+						</tr>
+						<tr>
+						<td><label for="password">Password:</label></td>
+						<td><input id="password" type="password" required="ingrese contraseña"
+							name="password" maxlength="8"></input></td>
+						</tr>
+						<label for="passwordbis">ingresar nuevamente pass</label>
+						<input id="passwordbis" type="password"
+							required="ingrese de nuevo pass" name="password"></input>
+						<br>
+						<label for="tyc">terminos y condiciones</label>
+						<input id="tyc" type="checkbox" name="Infrel"></input>
+						<br>
+						<input type="submit" value=Guardar>
+						<input type="button" value=Cancelar>
 				</table>
-
-				<label for="correoElectronico">Correo Electronico:</label> <input
-					id="correoElectronico" type="email" name="correoElectronico"
-					placeholder="email"></input><br> <label for="domicilio">Domicilio:</label>
-				<input id="domicilio" type="text" value="Domicilio"
-					name="domcicilio"></input><br> <label for="provincia">Provincia:</label>
-
-				<select id="provincia" name="Provincia">
-					<option value="Jujuy">jujuy</option>
-					<option value="salta"></option>
-
-				</select><br> <label for="celular">Telefono celu:</label> <input
-					id="celular" type="number" name="celular"></input><br> <label>categoria
-					de interes:</label>
-				<div>
-					<label for="intereses">futbol</label> <input id="intereses"
-						type="checkbox" name="intereses"></input><br>
-
-				</div>
-				<br> <label for="sugerencia"> Sugerencias:</label>
 				<textarea id="sugerencia" name="sugerencia" rows="8" cols="40"></textarea>
-				<br> <label for="password">Password:</label> <input
-					id="password" type="password" required="ingrese contraseña"
-					name="password" maxlength="8"></input><br> <label
-					for="passwordbis">ingresar nuevamente pass</label> <input
-					id="passwordbis" type="password" required="ingrese de nuevo pass"
-					name="password"></input><br> <label for="tyc">terminos
-					y condiciones</label> <input id="tyc" type="checkbox" name="Infrel"></input><br>
-				<input type="submit" value=Guardar> <input type="button"
-					value=Cancelar>
-
 			</form>
 			<hr>
 		</main>
